@@ -115,7 +115,7 @@ export default {
                     this.grupoAccion = resp.data;
                     this.existeGrupoAccion = true;
                     this.editarGrupoAccion = false;
-					console.log("Este es el resultado de grupo accion", resp.data);
+					console.log("Este test es el resultado de grupo accion", resp.data);
 				})
 				.catch((error) => {
 					console.log("Este es el error del con compras:" + error.response);
